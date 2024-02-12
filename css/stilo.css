@@ -186,14 +186,14 @@ h1{
    
   }
   
-         /* NOSOTROS*/
-         /* NOSOTROS*/
-         /* NOSOTROS*/
-         /* NOSOTROS*/
-         /* NOSOTROS*/
-         /* NOSOTROS*/
-         /* NOSOTROS*/
-         /* NOSOTROS*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
 
 
 
@@ -415,10 +415,10 @@ border: 5px double rgba(245, 216, 154, 0.92)
 
 
 
-  /* MEDIA QUERRIES*/
-  /* MEDIA QUERRIES*/
-  /* MEDIA QUERRIES*/
-  /* MEDIA QUERRIES*/
+  /* MEDIA QUERRIES PAGINA PRINCIPAL*/
+  /* MEDIA QUERRIES PAGINA PRINCIPAL*/
+  /* MEDIA QUERRIES PAGINA PRINCIPAL*/
+  /* MEDIA QUERRIES PAGINA PRINCIPAL*/
 
 
 
@@ -464,13 +464,38 @@ border: 5px double rgba(245, 216, 154, 0.92)
     position: absolute;
 }
 
+ /* MEDIA QUERRIES NOSOTROS-LA PAGINA SE LLAMA PRUEBA*/
+  /* MEDIA QUERRIES PAGINA PRINCIPAL-LA PAGINA SE LLAMA PRUEBA*/
+  /* MEDIA QUERRIES PAGINA PRINCIPAL-LA PAGINA SE LLAMA PRUEBA*/
+  /* MEDIA QUERRIES PAGINA PRINCIPAL-LA PAGINA SE LLAMA PRUEBA*/
+
+
+  .bodynosotros{
+    display: grid; 
+    grid-template-columns: .5FR;
+    grid-template-rows:  0.6fr;
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "encabezadoN"
+    "nosotros1"
+    "minevideo"
+    "nosotros2"
+    "videodulce"
+    "nosotros3"
+    "cachitovideo"
+    "nosotros4"
+    "moravideo"
+    "nosotros5"
+    "rrss2"; 
   }
 
-  
+  .bodynosotros{
+    justify-content: center;
+    align-content: center;
+    }
 
-
-
-
+    
+    }
 
 
 
