@@ -1,0 +1,468 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border box;
+}
+
+
+.cuerpo{
+
+    background-color:rgba(241, 238, 178, 0.781)}
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: comic sans monospace;
+    text-align: center;
+    display: grid;
+}
+
+
+    .encabezado {
+    
+        background-image: url(..//Imagenes/panes.jpg);
+        backface-visibility: hidden;
+        width: auto
+        height 250px;
+    
+
+}
+
+div{
+
+    .bienvenidos{
+        color: rgb(140, 56, 8);
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        margin: 50px;
+        padding: 100px;
+        line-height: 1;
+        width: 700px;
+        height: 200px;
+        display: inline-block;
+    
+    
+    
+    }
+    
+}    
+    .bloque2
+        
+            {
+                display: grid; 
+                grid-template-columns: 1fr 4fr 1fr; 
+                grid-template-rows: 1fr; 
+                gap: 0px 0px; 
+                grid-template-areas: 
+                  "bienvenidos Golfeado carrito"; 
+              }
+              .bienvenidos { grid-area: bienvenidos; }
+              .Golfeado { grid-area: Golfeado; }
+              .carrito { grid-area: carrito; }
+    
+    
+    
+    .carrito{
+    
+        position: fixed;
+        justify-self: right;
+        padding-right: 50px;
+    }
+    
+    .lineas{
+        border-top: 1 brown;
+    }
+    
+    .Golfeado{
+       
+     
+     align-self: center;
+      
+    }   
+
+
+
+    .carrucel {
+        background: linear-gradient(135deg, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 0.3fr 0.3fr 1fr 0,5fr 0,5fr 0,5fr 0fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "linea1 linea1 linea1 linea1 linea1 linea1"
+          ". . imput imput imput imput"
+          "nosotros nosotros nosotros . . ."
+          "nosotros nosotros nosotros . . ."
+          "nosotros nosotros nosotros productos productos productos"
+          ". . . productos productos productos"
+          ". . . productos productos productos"
+          ". . . productos productos productos"; 
+      
+      .linea1 { grid-area: linea1; }
+      .imput { grid-area: imput; }
+      .nosotros { grid-area: nosotros; }
+      .productos { grid-area: productos; }
+
+      .nosotros{
+        opacity: .8;
+      }
+      .imput{
+
+        color: rgba(242, 230, 162, 0.801);
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: right;
+        height: 100px;
+        padding: 50px;
+      }
+      .nosotros{
+        padding: 10px;
+        line-height: 1.5;
+        width: auto;
+        height: 400px;
+        justify-self: center;
+        text-align: center;
+        color: aliceblue;
+        border: 5px double rgba(236, 124, 11, 0.92)
+         }
+         .nosotros:hover{
+            opacity: 1;
+            border: solid white
+    
+          }
+    
+          .productos{
+            opacity: .8;
+          }
+    
+          .productos:hover{
+            opacity: 1;
+            border: solid white
+    
+          }
+    
+    
+    .productos{
+        padding: 10px;
+        line-height: 1,5;
+        width: auto;
+        height: 600px;
+        justify-self: center;
+        text-align: center;
+        color: aliceblue;
+        border: 5px double rgba(236, 124, 11, 0.92)
+               
+      }
+    }
+
+
+
+h3{
+
+    .imput{
+
+        color: rgba(242, 230, 162, 0.801);
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: right;
+        height: 100px;
+        padding: 50px;
+      }
+
+
+}
+
+div{
+
+    .nosotros{
+        padding: 10px;
+        line-height: 1.5;
+        width: auto;
+        height: 400px;
+        justify-self: center;
+        text-align: center;
+        color: aliceblue;
+        border: 5px double rgba(236, 124, 11, 0.92)
+        
+    }
+    .nosotros:hover{
+        opacity: 1;
+        border: solid white
+ 
+}
+}
+
+div{
+
+    .productos{
+        opacity: .8;
+      }
+
+      .productos:hover{
+        opacity: 1;
+        border: solid white
+
+      }
+
+
+.productos{
+    padding: 10px;
+    line-height: 1,5;
+    width: auto;
+    height: 600px;
+    justify-self: center;
+    text-align: center;
+    color: aliceblue;
+    border: 5px double rgba(236, 124, 11, 0.92)
+           
+  }   
+}
+footer{
+
+    .rrss{
+        text-align: center;
+        height: 100px ;
+       
+    }
+
+
+}
+
+
+  /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
+
+
+
+
+
+.bodynosotros{
+    background-image: url(..//Imagenes/gris2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    margin: 0;
+    min-height: 100vh;
+            
+    .bodynosotros{
+        display: grid; 
+        grid-template-columns: .5FR .5FR .5FR .5FR; 
+        grid-template-rows:  0.5fr .3fr 1fr .3fr 1fr .3fr 1fr .3fr;
+        gap: 0px 0px; 
+        grid-template-areas: 
+        "encabezadoN encabezadoN encabezadoN encabezadoN encabezadoN"
+          ". . nosotros1 nosotros1 nosotros1"
+          "minevideo minevideo minevideo . ."
+          ". . nosotros2 nosotros2 nosotros2"
+          "videodulce videodulce videodulce . ."
+          ". . nosotros3 nosotros3 nosotros3"
+          "cachitovideo cachitovideo cachitovideo . ."
+          ". . nosotros4 nosotros4 nosotros4"
+          "moravideo moravideo moravideo . ."
+          ". . nosotros5 nosotros5 nosotros5"
+          "rrss2 rrss2 rrss2 rrss2 rrss2"; 
+      }
+      .encabezadoN { grid-area: encabezadoN; }
+      .nosotros1 { grid-area: nosotros1; }
+      .minevideo { grid-area: minevideo; }
+      .nosotros2 { grid-area: nosotros2; }
+      .videodulce { grid-area: videodulce; }
+      .nosotros3 { grid-area: nosotros3; }
+      .cachitovideo { grid-area: cachitovideo; }
+      .nosotros4 { grid-area: nosotros4; }
+      .moravideo { grid-area: moravideo; }
+      .nosotros5 { grid-area: nosotros5; }
+      .rrss2 { grid-area: rrss2; }
+    
+      .encabezadoN{
+
+        .logoreal2{
+            flex-direction: row;
+            position: absolute;
+        }
+        
+        .nosotrosx{
+        display: grid;
+        color: rgba(114, 10, 10, 0.409);
+         height: 150px;
+        background-color: black;
+        background-size: cover;
+        
+        }
+        
+        .nosotrosx{
+        
+        justify-content: center;
+         color: rgb(232, 235, 237);
+         font-size: 100px;
+         margin: 10;
+        }
+
+
+      }
+
+
+      .nosotros a {
+        color: rgb(249, 249, 249); /* Cambia el color del texto a negro */
+        text-decoration: none; /* Opcional: elimina el subrayado del enlace */
+    }
+
+
+  .nosotros1{
+    padding: 5px;
+    margin: auto;
+    font-size: 200;
+    line-height: 1.5;
+    width: auto;
+    height: 120px;
+    justify-self: center;
+    text-align: center;
+    background-color: black;
+    color: beige;
+    overflow: auto;
+     }
+     .nosotros1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        border: 5px double rgba(245, 216, 154, 0.92)
+                }  
+
+ .nosotros2{
+        padding: 10px;
+        margin: auto;
+        line-height: 1.5;
+        width: auto;
+        height: 300px;
+        justify-self: center;
+        text-align: center;
+        background-color: black;
+        color: beige;
+         }
+
+.nosotros2{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+ border: 5px double rgba(245, 216, 154, 0.92)
+        }
+
+
+ .nosotros3{
+        padding: 10px;
+        margin: auto;
+        line-height: 1.5;
+        width: auto;
+        height: 200px;
+        justify-self: center;
+        text-align: center;
+        background-color: black;
+        color: beige;
+    
+    
+        }
+.nosotros3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 5px double rgba(245, 216, 154, 0.92)
+}
+
+
+.nosotros4{
+         padding: 10px;
+         margin: auto;
+         line-height: 1.5;
+        width: auto;
+        height: 180px;
+        justify-self: center;
+        text-align: center;
+        color: rgb(62, 42, 4);
+        border: 5px double rgba(236, 124, 11, 0.92);
+        background-color: black;
+        color: beige;
+        }
+
+.nosotros4{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+border: 5px double rgba(245, 216, 154, 0.92)
+        }
+
+.nosotros5{
+padding: 10px;
+margin: auto;
+line-height: 1.5;
+width: auto;
+height: 150px;
+justify-self: center;
+text-align: center;
+color: rgb(62, 42, 4);
+border: 5px double rgba(236, 124, 11, 0.92);
+background-color: black;
+color: beige;
+                 } 
+
+
+.nosotros5{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+border: 5px double rgba(245, 216, 154, 0.92)
+}                 
+                 
+.minevideo{
+
+    width: 500px;
+    padding: 10px;
+    justify-self: left;
+}
+ 
+.videodulce{
+
+    width: 500px;
+    padding: 15px;
+    justify-self: left;
+}
+ 
+
+.cachitovideo{
+
+    width: 500px;
+    padding: 15px;
+    justify-self: left;
+}
+
+.moravideo{
+    width: 500px;
+    padding: 15px;
+    justify-self: left;
+
+}
+
+.canelones{
+    width: 500px;
+    padding: 15px;
+    justify-self: left;
+ 
+}
+
+.rrss2{
+
+    text-align: center;
+    height: 100px ;
+    justify-self: center; 
+}
+
+
+
+
+
+
+
+
+}
+
