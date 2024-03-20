@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./Imagenes/Favicon.ico">
-    <title>Formulario para pedir cotizacion</title>
+    <link rel="shortcut icon" href="../Imagenes/logo real.jpeg">
+    <link rel="stylesheet" href="../css/stilo.css">
+    <title>Formulario</title>
 </head>
-<body>
+<body class="formu">
 
-    <head>
-        <h1>Realiza tu cotización</h1>
-    </head>
-    <main>
-        <form action="">
+  <header class="encaFormu">
+ <div class="deseas">
+        <h2>¿Deseas que te contactemos?</h2>
+        <br>
+        <h3>Compartenos los siguientes datos y lo haremos a la brevedad </h3>
+        <br>
+        <img class="logoformu"src="../Imagenes/logo real.jpeg" alt="Logo" width="100px"></div>
+   
+    <br>
+</header> 
+    <main class="preguntas">
+        <form class="Formulario">
 
             <div>
                 <label for="Nombre">Escribe tu nombre</label>
@@ -20,7 +28,7 @@
             </div>
             <br>
             <div>
-                <label for=""Apellido">Escribe tu apellido</label>
+                <label for="Apellido">Escribe tu apellido</label>
                 <input tySpe="text"Apellido="Apellido" placeholder="Briceño"> 
             </div>
             <br>
@@ -29,19 +37,38 @@
             <input type="email"name="mail" required>
             </div>
             <br>
+
+            <div> <label for="Teléfono">Número de Teléfono</label>
+                <input type="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Formato de celular válido: 123-456-7890"
+                placeholder="+56900000000"></div>
+            <br>
+            <div>
+                <label for="preferencia_contacto">¿En qué horario prefieres que te contactemos?</label>
+                <select id="preferencia_contacto" name="preferencia_contacto">
+                  <option value="mañana">Mañana</option>
+                  <option value="tarde">Tarde</option>
+                  <option value="noche">Noche</option>
+                </select>
+              </div>
+            <br>
+            <div>
             <input type="submit"value="Enviar datos">
             <input type="reset" value="Borrar datos">
-            
-
-
-
+        </div>
+        <br>
         </form>
 
     </main>
 
-    <footer>
+    <footer class="footerRRSS">
 
-        <h3><a href="../index.html">"Volver al inicio"</a></h3>
-    </footer>
+        <hr>
+        <h3 class="formuRRSS"> Nuestras redes sociales</h3>   
+        <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="../Imagenes/instagram.png" alt="Instagram" width="30px"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="../Imagenes/facebook.png" alt="Facebook" width="30px"></a>
+        <a href="https://www.whatsapp.com/" target="_blank"><img class="whatsapp" src="../Imagenes/whatsapp.png" alt="WhatsApp" width="30px"></a>
+        
+                <h5><a href="../index.html">Volver al inicio</a></h5>  
+            </footer>
 </body>
 </html>

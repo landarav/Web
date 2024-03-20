@@ -225,21 +225,14 @@ footer{
        
     }
 
-
 }
 
 
-  /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
-         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
-         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
-         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
-         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
-         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
-         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
-         /* NOSOTROS LA PAGINA SE LLAMA PRUEBA*/
-
-
-
+  /* NOSOTROS */
+  /* NOSOTROS */
+  /* NOSOTROS */
+  /* NOSOTROS */
+  /* NOSOTROS */
 
 
 .bodynosotros{
@@ -450,6 +443,7 @@ border: 5px double rgba(245, 216, 154, 0.92)
  
 }
 
+
 .rrss2{
 
     text-align: center;
@@ -458,11 +452,259 @@ border: 5px double rgba(245, 216, 154, 0.92)
 }
 
 
+}
+/* FORMULARIO*/
+/* FORMULARIO*/
+/* FORMULARIO*/
+/* FORMULARIO*/
+/* FORMULARIO*/
+/* FORMULARIO*/
+/* FORMULARIO*/
 
 
 
+.formu{
+background-color: #080808;
 
+.encaFormu{
+
+    background-color: #0e0501;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+
+}  
+.preguntas{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(..//Imagenes/fondo\ nosotros.jpg);
+    mask-repeat: no-repeat;
+
+.Formulario{
+
+
+    background-color: rgba(241, 238, 178, 0.781);
+    padding: 40px;
+    border-radius: 30px;
+
+}
+
+}
+
+
+    .footerRRSS{
+        text-align: center;
+        height: 100px ;
+       background-color: rgba(221, 195, 155, 0.954)
+    }
+  
+}
+
+
+/* Nuestros productos*/
+/* Nuestros productos*/
+/* Nuestros productos*/
+/* Nuestros productos*/
+/* Nuestros productos*/
+/* Nuestros productos*/
+
+.productos{
+
+ background-color: #080808;
+
+
+ .bodyproduct{
+    background: linear-gradient(135deg, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+ }
+
+.grupo1{
+
+    padding: 30px;
+}
+
+.grupo2{
+
+    padding: 30px;
+}
+
+.grupo3{
+
+    padding: 30px;
+}
+ .encaProduc{
+
+    background-color: #0e0501;
+    align-items: center;
+ 
+
+ }
+
+
+  .footerProd{
+    text-align: center;
+    padding: 20px;
+    height: 100px ;
+   background-color: rgba(241, 238, 178, 0.781)
+
+}
+}
+/* RECETAS*/
+/* RECETAS*/
+/* RECETAS*/
+/* RECETAS*/
+
+.bodyrecetas{
+display: flex;
+    align-items: center;
+}
+
+.video1{
+
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video2{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video3{
+
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .rrssRecetetas{
+        text-align: center;
+        height: 100px ;
+       background-color: rgba(221, 195, 155, 0.954)
+    }
+
+
+
+/* media QUERRIES carrucel*/
+/* media QUERRIES carrucel*/
+/* media QUERRIES carrucel*/
+/* media QUERRIES carrucel*/
+
+@media SCREEN AND (MAX-WIDTH: 768PX){
+    .carrucel{
+   
+       
+       grid-template-columns: 1fr 1fr 1fr; 
+       grid-template-rows: 0.1fr 0.8fr 0.5fr ; 
+       grid-template-areas: 
+         "linea1 linea1 linea1"
+         "imput imput imput "
+         "nosotros nosotros nosotros"
+         " productos productos productos"; 
+         justify-content: center;
+         padding: 0;
+         margin: 2fr;
+        
+       }
+   .bloque2{
+   
+           grid-template-columns: 0.5fr; 
+           grid-template-rows: 0.1fr 0.1fr 0.1fr;
+           grid-template-areas: 
+           "bienvenidos"
+           "Golfeado"
+           "carrito"; 
+           justify-content: center;
+           align-items: center;
+           
+                 
+       }   
+       
+       .bloque2 img.Golfeado {
+           display: block;
+           margin: 0 auto; 
+   }
+   
+   .bloque2 img.carrito {
+     
+       position: absolute;
+   }
+   .bodynosotros{
+    display: grid; 
+    grid-template-columns: .5FR;
+    grid-template-rows:  0.6fr;
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "encabezadoN"
+    "nosotros1"
+    "minevideo"
+    "nosotros2"
+    "videodulce"
+    "nosotros3"
+    "cachitovideo"
+    "nosotros4"
+    "moravideo"
+    "nosotros5"
+    "rrss2"; 
+  }
+
+.nosotros5{
+    height: auto;
+}
+
+  .bodynosotros{
+    justify-content: center;
+    align-content: center;
+    }
+
+
+
+/* FORMULARIO*/
+/* FORMULARIO*/
+
+.formu{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+
+}
+.footerRRSS{
+    background-color: rgba(241, 238, 178, 0.781)
 
 
 }
 
+
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    
+    }
+
+    .bodyrecetas{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 50px;
+        
+        }
+}
